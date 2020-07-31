@@ -1,3 +1,5 @@
+all: standardDeviation hakohige
+
 standardDeviation:
 	g++ -Wall -o standardDeviation.out standardDeviation.cpp
 
