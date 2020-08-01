@@ -46,7 +46,7 @@ int main(void) {
 	cout << "Result:" << endl;
 	cout << "Elements: ";
 	for (int i=0;i<num;i++)
-		cout << "(" << array.at(i).x  << "," << array.at(i).y << ")";
+		cout << "(" << array.at(i).x  << "," << array.at(i).y << ") ";
 	cout << endl;
 	cout << "Average: x: " << ave.x << " y: " << ave.y << endl;
 	cout << "Standard Deviation Value: sx: " << sd.x << " sy: " << sd.y << " sxy: " << sxy << endl;
